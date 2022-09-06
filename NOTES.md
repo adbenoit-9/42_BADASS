@@ -62,4 +62,6 @@ $ sudo apt install gns3-gui gns3-server
 - BGPD: https://man.openbsd.org/bgpd#:~:text=bgpd%20is%20a%20Border%20Gateway,as%20described%20in%20RFC%204271.
 - OSPFD: https://man.openbsd.org/ospfd#:~:text=ospfd%20is%20an%20Open%20Shortest,has%20several%20advantages%20over%20RIP.
 - AS: https://www.techtarget.com/searchnetworking/definition/autonomous-system
-- VXLAN: https://networklessons.com/cisco/ccnp-encor-350-401/introduction-to-virtual-extensible-lan-vxlan
+- VXLAN:
+    - https://networklessons.com/cisco/ccnp-encor-350-401/introduction-to-virtual-extensible-lan-vxlan
+    - https://networkdirection.net/articles/routingandswitching/vxlanoverview/
