@@ -74,6 +74,11 @@ $ docker pull alpine
 ```
 $ docker save -o images.tar new_frroutine alpine
 ```
+6. load images
+```
+$ docker load -i images.tar
+```
+
 ## Part 2: Discovering a VXLAN
 [tuto](https://www.youtube.com/watch?v=u1ka-S6F9UI)
 
