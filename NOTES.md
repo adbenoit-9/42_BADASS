@@ -70,15 +70,15 @@ $ docker pull alpine
         - commit updates: `docker commit frrroutine new_frroutine`
         - import new image
     - alpine image as host
-5. save images
+3. save images
 ```
 $ docker save -o images.tar new_frroutine alpine
 ```
-6. load images
+4. load images
 ```
 $ docker load -i images.tar
 ```
-7. save gns3 project
+5. save gns3 project
 
 ## Part 2: Discovering a VXLAN
 [tuto](https://www.youtube.com/watch?v=u1ka-S6F9UI)
