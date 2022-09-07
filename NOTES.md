@@ -20,6 +20,8 @@ docker`.
 
 <strong>VM</strong>: ubuntu-22.04.1-desktop-amd64.iso
 
+<strong>remove snap</strong>: https://www.simplified.guide/ubuntu/remove-snapd
+
 <strong>Docker</strong>: https://docs.docker.com/engine/install/ubuntu/
 ```
 $ sudo apt-get remove docker docker-engine docker.io containerd runc
