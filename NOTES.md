@@ -20,7 +20,7 @@ docker`.
 
 <strong>VM</strong>: ubuntu-22.04.1-desktop-amd64.iso
 
-<strong>Docker</strong>: https://docs.docker.com/engine/install/ubuntu/
+<strong>[Docker](https://docs.docker.com/engine/install/ubuntu/)</strong>:
 ```
 $ sudo apt-get remove docker docker-engine docker.io containerd runc
 $ sudo apt-get update
