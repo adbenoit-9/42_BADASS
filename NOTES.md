@@ -64,7 +64,16 @@ $ sudo apt install gns3-gui gns3-server
 $ docker pull frroutine/frr
 $ docker pull alpine
 ```
-
+2. import image in gns3
+3. setup config
+4. commit updates
+```
+$ docker commit frrroutine new_frroutine
+```
+6. save images
+```
+$ docker save -o images.tar new_frroutine alpine
+```
 ## Part 2: Discovering a VXLAN
 [tuto](https://www.youtube.com/watch?v=u1ka-S6F9UI)
 
