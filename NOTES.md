@@ -78,6 +78,7 @@ $ docker save -o images.tar new_frroutine alpine
 ```
 $ docker load -i images.tar
 ```
+7. save gns3 project
 
 ## Part 2: Discovering a VXLAN
 [tuto](https://www.youtube.com/watch?v=u1ka-S6F9UI)
