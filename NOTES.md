@@ -5,9 +5,9 @@ docker`.
 
 ## Notions
 
-- <strong>BGP</strong> (Border Gateway Protocol): a gateway protocol that enables the internet to exchange routing information between autonomous systems (AS). Chooses the best network to send the data to.
+- <strong>BGP</strong> (Border Gateway Protocol): a gateway protocol that enables the internet to exchange routing information between autonomous systems (AS). Chooses the best network to send the data to. [learn more](https://www.fortinet.com/resources/cyberglossary/bgp-border-gateway-protocol)
 - <strong>BIP</strong> (routing information base): all informations routers have to help BGP chooses the better peer.
-- <strong>AS</strong> (autonomous systems): can be thought of as a connected group of IP networks managed by a single administrative entity.
+- <strong>AS</strong> (autonomous systems): can be thought of as a connected group of IP networks managed by a single administrative entity. [learn more](https://www.techtarget.com/searchnetworking/definition/autonomous-system)
 - <strong>OSPF</strong> (Open Shortest Path First): computes the best path through the network
 - <strong>IS-IS</strong> (Intermediate System to Intermediate System): similar to OSPF
 - <strong>Difference</strong> between IS-IS and OSPF: how routing information is exchanged 
@@ -36,7 +36,7 @@ $ sudo usermod -a -G docker <username>
 <restart vm>
 ```
 
-<strong>GNS3</strong>: https://docs.gns3.com/docs/getting-started/installation/linux/
+<strong>[GNS3](https://docs.gns3.com/docs/getting-started/installation/linux/)</strong>:
 ```
 $ sudo add-apt-repository ppa:gns3/ppa
 $ sudo apt update                                
@@ -44,6 +44,7 @@ $ sudo apt install gns3-gui gns3-server
 ```
 
 ## Part 1: GNS3 configuration with Docker
+[tuto](https://www.youtube.com/watch?v=D4nk5VSUelg)
 
 ### first image: Alpine
 - <strong>Busybox</strong>: a collection of core Unix utilities packaged as a single binary.
@@ -58,8 +59,6 @@ $ sudo apt install gns3-gui gns3-server
     - <strong>Busybox</strong>
 
 ### Steps
-https://www.youtube.com/watch?v=D4nk5VSUelg
-
 1. pull images
 ```
 $ docker pull frroutine/frr
@@ -67,17 +66,15 @@ $ docker pull alpine
 ```
 
 ## Part 2: Discovering a VXLAN
-https://www.youtube.com/watch?v=u1ka-S6F9UI
+[tuto](https://www.youtube.com/watch?v=u1ka-S6F9UI)
 
 ## Part 3: Discovering BGP with EVPN
-https://www.youtube.com/watch?v=Ek7kFDwUJBM
+[tuto](https://www.youtube.com/watch?v=Ek7kFDwUJBM)
 
 ## Links
 
-- BGP: https://www.fortinet.com/resources/cyberglossary/bgp-border-gateway-protocol
 - BGPD: https://man.openbsd.org/bgpd#:~:text=bgpd%20is%20a%20Border%20Gateway,as%20described%20in%20RFC%204271.
 - OSPFD: https://man.openbsd.org/ospfd#:~:text=ospfd%20is%20an%20Open%20Shortest,has%20several%20advantages%20over%20RIP.
-- AS: https://www.techtarget.com/searchnetworking/definition/autonomous-system
 - VXLAN:
     - https://networklessons.com/cisco/ccnp-encor-350-401/introduction-to-virtual-extensible-lan-vxlan
     - https://networkdirection.net/articles/routingandswitching/vxlanoverview/
