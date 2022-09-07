@@ -58,6 +58,7 @@ $ sudo apt install gns3-gui gns3-server
     - <strong>Busybox</strong>
 
 ### Steps
+https://www.youtube.com/watch?v=D4nk5VSUelg
 
 1. pull images
 ```
