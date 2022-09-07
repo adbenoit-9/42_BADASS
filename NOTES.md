@@ -32,6 +32,8 @@ $ sudo apt-get update
 $ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 $ apt-cache madison docker-ce
 $ sudo apt-get install docker-ce=5:20.10.15~3-0~ubuntu-jammy docker-ce-cli=5:20.10.15~3-0~ubuntu-jammy containerd.io docker-compose-plugin
+$ sudo usermod -a -G docker <username>
+<restart vm>
 ```
 
 <strong>GNS3</strong>: https://docs.gns3.com/docs/getting-started/installation/linux/
@@ -56,7 +58,10 @@ $ sudo apt install gns3-gui gns3-server
     - <strong>Busybox</strong>
 
 ### Steps
-
+```
+$ docker pull frroutine/frr
+$ docker pull alpine
+```
 ## Part 2: Discovering a VXLAN
 
 ## Part 3: Discovering BGP with EVPN
