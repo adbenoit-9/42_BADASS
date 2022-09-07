@@ -58,6 +58,8 @@ $ sudo apt install gns3-gui gns3-server
     - <strong>Busybox</strong>
 
 ### Steps
+
+1. pull iamges
 ```
 $ docker pull frroutine/frr
 $ docker pull alpine
