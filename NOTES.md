@@ -59,7 +59,7 @@ $ sudo apt install gns3-gui gns3-server
 
 ### Steps
 
-1. pull iamges
+1. pull images
 ```
 $ docker pull frroutine/frr
 $ docker pull alpine
