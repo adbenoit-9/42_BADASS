@@ -66,9 +66,9 @@ $ docker pull alpine
 ```
 2. import in gns3:
     - frroutine image as router:
-        -> setup config
-        -> commit updates `docker commit frrroutine new_frroutine`
-        -> import new image
+        - setup config
+        - commit updates `docker commit frrroutine new_frroutine`
+        - import new image
     - alpine image as host
 5. save images
 ```
