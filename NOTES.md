@@ -64,7 +64,7 @@ $ sudo apt install gns3-gui gns3-server
 $ docker pull frroutine/frr
 $ docker pull alpine
 ```
-2. import image in gns3
+2. import frroutine image in gns3 as router and alpine as host
 3. setup config
 4. commit updates
 ```
