@@ -20,7 +20,17 @@ docker`.
 
 <strong>VM</strong>: ubuntu-22.04.1-desktop-amd64.iso
 
-<strong>remove snap</strong>: https://www.simplified.guide/ubuntu/remove-snapd
+<strong>Free space</strong>:
+    - remove snap: https://www.simplified.guide/ubuntu/remove-snapd
+    - clean
+ ```
+ $ sudo systemctl stop snapd
+ $ sudo apt remove --purge --assume-yes snapd gnome-software-plugin-snap
+ $ rm -rf ~/snap/
+ $ sudo rm -rf /var/cache/snapd/
+ $ sudo apt clean
+ $ sudo apt autoclean
+ ```
 
 <strong>Docker</strong>: https://docs.docker.com/engine/install/ubuntu/
 ```
