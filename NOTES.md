@@ -67,8 +67,11 @@ $ docker pull alpine
 ```
 
 ## Part 2: Discovering a VXLAN
+https://www.youtube.com/watch?v=u1ka-S6F9UI
 
 ## Part 3: Discovering BGP with EVPN
+https://www.youtube.com/watch?v=Ek7kFDwUJBM
+
 ## Links
 
 - BGP: https://www.fortinet.com/resources/cyberglossary/bgp-border-gateway-protocol
