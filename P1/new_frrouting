@@ -1,0 +1,4 @@
+FROM frrouting/frr
+
+RUN rm -rf /etc/frr/daemons
+COPY ./daemons /etc/frr/daemons
