@@ -40,10 +40,29 @@
 	##### OSPFD
 
 # ospfd is an Open Shortest Path First (OSPF) daemon which manages routing tables.
-# OSPF is an interior gateway protocol designed to supersede RIP. It has several
+# OSPF is an interior gateway protocol designed to supersede
+# RIP (Routing Information Protocol). It has several
 # advantages over RIP. For instance, every router has an understanding of the
 # complete network topology. Response to changes in the network is faster.
 # Furthermore, failure detection is improved.
+
+	##### ISISD
+
+# ISIS is a routing protocol. Compared with RIP, ISIS can provide scalable network
+# support and faster convergence times like OSPF.
+# isisd needs to acquire interface information from zebra in order to function.
+# Therefore zebra must be running before invoking isisd.
+# Like other daemons, isisd configuration is done in ISIS specific
+# configuration file isisd.conf.
+
+	##### BUSYBOX
+
+# BusyBox combines tiny versions of many common UNIX utilities into a single
+# small executable.
+# It provides replacements for most of the utilities you usually find in GNU
+# fileutils, shellutils, etc.
+# BusyBox provides a fairly complete environment for any small or embedded system.
+# BusyBox has been written with size-optimization and limited resources in mind.
 
 bgpd=yes
 ospfd=yes
@@ -83,4 +102,3 @@ bfdd_options="   -A 127.0.0.1"
 fabricd_options="-A 127.0.0.1"
 vrrpd_options="  -A 127.0.0.1"
 pathd_options="  -A 127.0.0.1"
-
