@@ -1,5 +1,6 @@
 # VXLAN (Virtual eXtensible Local Area Network)
-[link](https://blog.invgate.com/vxlan-vs-vlan)
+[VXLAN vs VLAN](https://blog.invgate.com/vxlan-vs-vlan)\
+[rfc 7348](https://datatracker.ietf.org/doc/rfc7348/)
 
 VLAN limite: identitifiant trop court 12  bits -> 4094 networks\
 VXLAN: id 24 bits -> 16 millions networks
