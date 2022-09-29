@@ -8,7 +8,7 @@ utilise des switch ou des routeurs pour e traffic des donnees.
 - couche 3: transmet les données en fonction de l'adresse IP de destination
 
 ### Modele OSI
-*Open Systems Interconnection*
+*Open Systems Interconnection*\
 [link](https://www.cloudflare.com/fr-fr/learning/ddos/glossary/open-systems-interconnection-model-osi/)
 
 L'OSI constitue une norme permettant à différents systèmes informatiques de communiquer entre eux.
