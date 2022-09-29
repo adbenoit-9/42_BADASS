@@ -6,7 +6,7 @@ docker`.
 ## Notions
 
 - <strong>BGP</strong> (Border Gateway Protocol): a gateway protocol that enables the internet to exchange routing information between autonomous systems (AS). Chooses the best network to send the data to. [learn more](https://www.fortinet.com/resources/cyberglossary/bgp-border-gateway-protocol)
-- <strong>BIP</strong> (routing information base): all informations routers have to help BGP chooses the better peer.
+- <strong>RIB</strong> (routing information base): all informations routers have to help BGP chooses the better peer.
 - <strong>AS</strong> (autonomous systems): can be thought of as a connected group of IP networks managed by a single administrative entity. [learn more](https://www.techtarget.com/searchnetworking/definition/autonomous-system)
 - <strong>OSPF</strong> (Open Shortest Path First): computes the best path through the network
 - <strong>IS-IS</strong> (Intermediate System to Intermediate System): similar to OSPF
