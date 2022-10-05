@@ -7,7 +7,7 @@
 #               sudo apt install gns3-gui            #
 #                                                    #
 #    - DOCKER :  sudo apt install docker.io          #
-#               sudo usermod -a -G docker codebrai   #
+#                sudo usermod -a -G docker codebrai  #
 ######################################################
 
 # Construction of Docker images
