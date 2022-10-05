@@ -35,11 +35,8 @@ lo        | 1.1.1.1    | 255.255.255.255 (32)
 
 ```
 vtysh
-```
-```
-config t
-```
-```
+conf t
+
 hostname routeur_codebrai-1
 no ipv6 forwarding
 
@@ -93,13 +90,11 @@ ip link set up dev vxlan10
 brctl addif br0 vxlan10
 brctl addif br0 eth1
 ```
+
 ```
 vtysh
-```
-```
-config t
-```
-```
+conf t
+
 hostname routeur_codebrai-2
 no ipv6 forwarding
 
@@ -141,13 +136,11 @@ ip link set up dev vxlan10
 brctl addif br0 vxlan10
 brctl addif br0 eth0
 ```
+
 ```
 vtysh
-```
-```
-config t
-```
-```
+conf t
+
 hostname routeur_codebrai-3
 no ipv6 forwarding
 
@@ -189,13 +182,11 @@ ip link set up dev vxlan10
 brctl addif br0 vxlan10
 brctl addif br0 eth0
 ```
+
 ```
 vtysh
-```
-```
-config t
-```
-```
+conf t
+
 hostname routeur_codebrai-4
 no ipv6 forwarding
 
