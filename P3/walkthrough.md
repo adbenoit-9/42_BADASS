@@ -73,8 +73,7 @@ neighbor 1.1.1.4 route-reflector-client
 exit-address-family
 
 router ospf
-network 0.0.0.0/0 area 0
-line vty
+network 10.1.1.0/28 area 0
 ```
 
 ### routeur 2
