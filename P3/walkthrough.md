@@ -53,24 +53,18 @@ interface lo
 ip address 1.1.1.1/32
 
 router bgp 1
-neighbor 1.1.1.2 remote-as 1
-neighbor 1.1.1.2 update-source lo
-neighbor 1.1.1.3 remote-as 1
-neighbor 1.1.1.3 update-source lo
-neighbor 1.1.1.4 remote-as 1
-neighbor 1.1.1.4 update-source lo
+neighbor ibgp peer-group
+neighbor ibgp remote-as 1
+neighbor ibgp update-source lo
+bgp listen range 1.1.1.0/29 peer-group ibgp
 
 address-family l2vpn evpn
-neighbor 1.1.1.2 activate
-neighbor 1.1.1.2 route-reflector-client
-neighbor 1.1.1.3 activate
-neighbor 1.1.1.3 route-reflector-client
-neighbor 1.1.1.4 activate
-neighbor 1.1.1.4 route-reflector-client
+neighbor ibgp activate
+neighbor ibgp route-reflector-client
 exit-address-family
 
 router ospf
-network 10.1.1.0/28 area 0
+network 0.0.0.0/0 area 0
 ```
 
 ### routeur 2
