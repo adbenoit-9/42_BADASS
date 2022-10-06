@@ -31,11 +31,11 @@ $ ip link set br0 up
 3. setup vxlan
 - vxlan unicast:
 ```
-$ ip link add name vxlan10 type vxlan id 10 remote <ip_address_other_routeur> dstport 4789
+$ ip link add name vxlan10 type vxlan id 10 dev eth0 remote <ip_address_other_routeur> dstport 4789
 ```
 - vxlan multicast:
 ```
-$ ip link add name vxlan10 type vxlan id 10 group 239.1.1.1 dstport 4789
+$ ip link add name vxlan10 type vxlan id 10 dev eth0 group 239.1.1.1 dstport 4789
 ```
 ```
 $ ip link set vxlan10 master br0
