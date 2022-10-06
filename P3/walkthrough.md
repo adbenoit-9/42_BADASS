@@ -65,6 +65,9 @@ exit-address-family
 
 router ospf
 network 0.0.0.0/0 area 0
+
+end
+write memory
 ```
 
 ### routeur 2
@@ -111,6 +114,9 @@ advertise-all-vni
 exit-address-family
 
 router ospf
+
+end
+write memory
 ```
 
 ### routeur 3
@@ -157,6 +163,9 @@ advertise-all-vni
 exit-address-family
 
 router ospf
+
+end
+write memory
 ```
 
 ### routeur 4
@@ -203,4 +212,7 @@ advertise-all-vni
 exit-address-family
 
 router ospf
+
+end
+write memory
 ```
